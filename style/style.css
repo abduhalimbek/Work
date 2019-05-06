@@ -1,0 +1,103 @@
+/*Less Variables*/
+.bg-image {
+  background: url("../includes/ocean.jpeg") center center no-repeat;
+}
+/*Custom CSS*/
+body {
+  background: url("../includes/ocean.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.sign-up {
+  opacity: 0.9;
+}
+.container h3 {
+  color: #1b1e21;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+.pre {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+}
+div.sign-up {
+  width: 500px;
+  max-height: 1000px;
+  background-color: #efeeff;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form-group label {
+  color: #1d2124;
+}
+.form-group {
+  margin: 10px auto;
+}
+.form-control {
+  border: none;
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+}
+input[type=text] {
+  margin-bottom: 8px;
+}
+.form-control:hover {
+  border-color: #1e7e34;
+}
+.btn {
+  margin-top: 8px;
+  background-color: #37932f;
+  color: #fff;
+  border-radius: 5px;
+  width: 7em;
+  height: 2.2em;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #4c912a;
+  color: #fff;
+}
+label a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+}
+small {
+  color: #ff000b;
+}
+label {
+  color: #333;
+  font-size: 16px;
+}
+/*Mobile Devices*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  div.sign-up {
+    width: 299px;
+    max-height: 1000px;
+    background-color: #efeeff;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 580px) {
+  div.sign-up {
+    width: 380px;
+    max-height: 1000px;
+    background-color: #efeeff;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+/*Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*/
